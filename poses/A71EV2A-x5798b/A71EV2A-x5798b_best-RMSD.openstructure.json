@@ -1,0 +1,341 @@
+{
+    "model_ligands": [
+        "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/run_05.ost.sdf"
+    ],
+    "reference_ligands": [
+        "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/reference.ost.sdf"
+    ],
+    "lddt_pli": {
+        "assigned_scores": [
+            {
+                "score": 1.0,
+                "coverage": 1.0,
+                "lddt_pli_n_contacts": 546,
+                "model_ligand": "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/run_05.ost.sdf",
+                "reference_ligand": "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/reference.ost.sdf"
+            }
+        ],
+        "model_ligand_unassigned_reason": {},
+        "reference_ligand_unassigned_reason": {},
+        "full_results": [
+            {
+                "score": 1.0,
+                "coverage": 1.0,
+                "lddt_pli_n_contacts": 546,
+                "model_ligand": "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/run_05.ost.sdf",
+                "reference_ligand": "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/reference.ost.sdf"
+            }
+        ]
+    },
+    "rmsd": {
+        "assigned_scores": [
+            {
+                "score": 0.20969776809215546,
+                "coverage": 1.0,
+                "lddt_lp": 1.0,
+                "bb_rmsd": 1.9405865714361425e-06,
+                "model_ligand": "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/run_05.ost.sdf",
+                "reference_ligand": "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/reference.ost.sdf",
+                "chain_mapping": {
+                    "C": "C"
+                },
+                "bs_ref_res": [
+                    "C.21.",
+                    "C.39.",
+                    "C.84.",
+                    "C.87.",
+                    "C.89.",
+                    "C.90.",
+                    "C.93.",
+                    "C.95.",
+                    "C.105.",
+                    "C.106.",
+                    "C.107.",
+                    "C.110.",
+                    "C.125.",
+                    "C.126.",
+                    "C.127.",
+                    "C.128."
+                ],
+                "bs_ref_res_mapped": [
+                    "C.21.",
+                    "C.39.",
+                    "C.84.",
+                    "C.87.",
+                    "C.89.",
+                    "C.90.",
+                    "C.93.",
+                    "C.95.",
+                    "C.105.",
+                    "C.106.",
+                    "C.107.",
+                    "C.110.",
+                    "C.125.",
+                    "C.126.",
+                    "C.127.",
+                    "C.128."
+                ],
+                "bs_mdl_res_mapped": [
+                    "C.21.",
+                    "C.39.",
+                    "C.84.",
+                    "C.87.",
+                    "C.89.",
+                    "C.90.",
+                    "C.93.",
+                    "C.95.",
+                    "C.105.",
+                    "C.106.",
+                    "C.107.",
+                    "C.110.",
+                    "C.125.",
+                    "C.126.",
+                    "C.127.",
+                    "C.128."
+                ],
+                "inconsistent_residues": [],
+                "transform": [
+                    [
+                        1.0000001192092896,
+                        1.4901161193847656e-08,
+                        0.0,
+                        -9.5367431640625e-07
+                    ],
+                    [
+                        -4.470348358154297e-08,
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        8.940696716308594e-08,
+                        2.9802322387695312e-08,
+                        0.9999998807907104,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            }
+        ],
+        "model_ligand_unassigned_reason": {},
+        "reference_ligand_unassigned_reason": {},
+        "full_results": [
+            {
+                "score": 0.20969776809215546,
+                "coverage": 1.0,
+                "lddt_lp": 1.0,
+                "bb_rmsd": 1.9405865714361425e-06,
+                "model_ligand": "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/run_05.ost.sdf",
+                "reference_ligand": "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/reference.ost.sdf",
+                "chain_mapping": {
+                    "C": "C"
+                },
+                "bs_ref_res": [
+                    "C.21.",
+                    "C.39.",
+                    "C.84.",
+                    "C.87.",
+                    "C.89.",
+                    "C.90.",
+                    "C.93.",
+                    "C.95.",
+                    "C.105.",
+                    "C.106.",
+                    "C.107.",
+                    "C.110.",
+                    "C.125.",
+                    "C.126.",
+                    "C.127.",
+                    "C.128."
+                ],
+                "bs_ref_res_mapped": [
+                    "C.21.",
+                    "C.39.",
+                    "C.84.",
+                    "C.87.",
+                    "C.89.",
+                    "C.90.",
+                    "C.93.",
+                    "C.95.",
+                    "C.105.",
+                    "C.106.",
+                    "C.107.",
+                    "C.110.",
+                    "C.125.",
+                    "C.126.",
+                    "C.127.",
+                    "C.128."
+                ],
+                "bs_mdl_res_mapped": [
+                    "C.21.",
+                    "C.39.",
+                    "C.84.",
+                    "C.87.",
+                    "C.89.",
+                    "C.90.",
+                    "C.93.",
+                    "C.95.",
+                    "C.105.",
+                    "C.106.",
+                    "C.107.",
+                    "C.110.",
+                    "C.125.",
+                    "C.126.",
+                    "C.127.",
+                    "C.128."
+                ],
+                "inconsistent_residues": [],
+                "transform": [
+                    [
+                        1.0000001192092896,
+                        1.4901161193847656e-08,
+                        0.0,
+                        -9.5367431640625e-07
+                    ],
+                    [
+                        -4.470348358154297e-08,
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        8.940696716308594e-08,
+                        2.9802322387695312e-08,
+                        0.9999998807907104,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            }
+        ]
+    },
+    "chem_groups": [
+        [
+            "C",
+            "A"
+        ]
+    ],
+    "chem_mapping": [
+        [
+            "A",
+            "C"
+        ]
+    ],
+    "mdl_chains_without_chem_mapping": [],
+    "model_cleanup_log": {
+        "cleaned_residues": {
+            "no_clib": [],
+            "not_linking": []
+        },
+        "cleaned_atoms": {
+            "unknown_atoms": []
+        }
+    },
+    "reference_cleanup_log": {
+        "cleaned_residues": {
+            "no_clib": [
+                "A.4000.",
+                "C.4000."
+            ],
+            "not_linking": [
+                "A.4003.",
+                "A.4004.",
+                "A.4005.",
+                "B.1.",
+                "D.7.",
+                "D.9.",
+                "D.11.",
+                "D.12.",
+                "D.16.",
+                "E.1.",
+                "F.2.",
+                "G.1.",
+                "G.2.",
+                "G.4.",
+                "G.6.",
+                "G.7.",
+                "G.13.",
+                "G.14.",
+                "G.15.",
+                "G.16.",
+                "G.17.",
+                "G.18.",
+                "G.19.",
+                "G.20.",
+                "G.21.",
+                "G.22.",
+                "G.23.",
+                "G.24.",
+                "C.4001.",
+                "C.4002.",
+                "C.4003.",
+                "W.23.",
+                "W.34.",
+                "W.112.",
+                "W.120.",
+                "W.127.",
+                "W.140.",
+                "W.143.",
+                "W.164.",
+                "W.175.",
+                "W.330.",
+                "W.363."
+            ]
+        },
+        "cleaned_atoms": {
+            "unknown_atoms": []
+        }
+    },
+    "arguments": {
+        "model": "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/receptor.ost.pdb",
+        "model_ligands": [
+            "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/run_05.ost.sdf"
+        ],
+        "reference": "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/reference_complex.ost.pdb",
+        "reference_ligands": [
+            "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/reference.ost.sdf"
+        ],
+        "output": "/home/mpatr/OpenBind/structures/extracted_results/evaluation/A71EV2A-x5798b/run_05.openstructure.json",
+        "model_format": null,
+        "reference_format": null,
+        "output_format": "json",
+        "output_by_model_ligand": false,
+        "csv_extra_header": null,
+        "csv_extra_data": null,
+        "model_biounit": null,
+        "reference_biounit": null,
+        "fault_tolerant": false,
+        "residue_number_alignment": false,
+        "substructure_match": false,
+        "coverage_delta": 0.2,
+        "verbosity": 0,
+        "full_results": true,
+        "lddt_pli": true,
+        "lddt_pli_radius": 6.0,
+        "lddt_pli_add_mdl_contacts": true,
+        "rmsd": true,
+        "radius": 4.0,
+        "lddt_lp_radius": 15.0,
+        "full_bs_search": false,
+        "max_symmetries": 10000.0,
+        "min_pep_length": 6,
+        "min_nuc_length": 4,
+        "chem_group_seqid_thresh": 95.0,
+        "chem_map_seqid_thresh": 70.0,
+        "seqres": null,
+        "trg_seqres_mapping": null
+    },
+    "log": [],
+    "ost_version": "2.11.1",
+    "status": "SUCCESS"
+}
