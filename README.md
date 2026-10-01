@@ -11,7 +11,7 @@ PoseBusters-valid pose selections per compound: lowest energy and best RMSD.
   PCA coordinates and chemical-cluster assignments.
 - `analysis/pose_manifest.csv`: one row per exported SDF, linking its filename to
   the compound, original event folder, run, selection rule and analysed scores.
-- `poses/<original-folder>/<original-folder>_lowest-energy.sdf`: lowest FITTED-energy
+- `poses/<original-folder>/<original-folder>_lowest-energy.sdf`: lowest docking energy
   PoseBusters-valid pose for that compound.
 - `poses/<original-folder>/<original-folder>_best-RMSD.sdf`: minimum OpenStructure-RMSD
   PoseBusters-valid pose for that compound.
@@ -44,25 +44,12 @@ differs from the unfiltered event-level Top-1 benchmark selection.
 ## SDF contents
 
 Each SDF contains one docked pose and one data field, `FittedScore`.
-This is FITTED's fitted score, not its energy. Lowest-energy selection uses
-FITTED energy; the manifest records both values, OpenStructure RMSD, LDDT-PLI
+This is the docking score, not its energy. Lowest-energy selection uses
+"energy"; the manifest records both values, OpenStructure RMSD, LDDT-PLI
 and PoseBusters validity.
 
 SDF molecule titles match their filenames. Structures include the docked atom
 coordinates, atom order, bonds, hydrogens, charge and stereochemical records.
-
-## Reproducing the export
-
-Python 3.10 or newer; standard library only. Supply the original selected-compound
-analysis, the full evaluated pose-score CSV, extracted poses and evaluation reports:
-
-```sh
-python scripts/export_selected_poses.py --analysis compound_comparison.csv --scores pose_scores.csv --pose-root /path/to/extracted_results/poses --evaluation-root /path/to/extracted_results/evaluation --out /path/to/package
-```
-
-Use a dedicated output directory. The exporter verifies pose selections against
-the analysis, checks OpenStructure scores and PoseBusters validity, validates
-SDF contents and records file hashes. It creates a ZIP alongside the output folder.
 
 ## Source and methods
 
